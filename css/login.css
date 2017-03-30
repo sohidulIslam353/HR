@@ -1,0 +1,38 @@
+nav{
+background-color:#0A2D48;
+height: 100px;
+}
+ul{
+background-color: #0A2D48;
+border-radius: 5px;
+}
+ul li a{
+color:white;
+border-color:black; 
+font-size: 18px;
+}
+ul li a:hover{
+	color:#0A2D48;
+}
+
+
+.forget{
+ color:#0A2D48;
+ font-weight:bold;
+ font-size:16px;
+ font-family:vernada;
+ float: right;
+ padding-top: 10px;
+}
+.btn{
+background-color:#0A2D48;
+color:white; 
+font-weight: bolder;
+}
+
+.row h1{
+   color:#0A2D48;
+   margin-bottom:20px;
+   font-weight:bold;
+   font-family: vernada; 
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hr management</title>
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		 <!-- Optional theme -->
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/leaverequest.css">
+      
+</head>
+<body> 
+
+	<nav class="navbar ">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="admin.html">
+	        <h1 id="nav-head">HR Management System</h1>
+	      </a>
+	    </div>
+	  </div>
+	        <a href="../index.html" style="float: right;color:white; text-decoration: none; padding-right: 30px; padding-top: 30px; font-size: 20px;"> logout </a> <span class="glyphicon glyphicon-off" style="color: white; float:right;padding-top: 30px; font-size: 20px;"> </span> 
+	 </nav>   
+       <div class="row">
+         <div class="col-xs-12 col-sm-4 col-md-5 col-lg-3" >        
+           <div class="list-group">
+            <a href="admin.html" id="admin" class=" list-group-item " >                    
+               <h5 ><span class="glyphicon glyphicon-user"></span> User</h5>                 
+                </a> 
+                   <a href="admin.html" class="list-group-item active ">
+				     <span class="glyphicon glyphicon-home"> </span> Home
+				       </a>	
+                    <button class="accordion"> <span class=" glyphicon glyphicon-th"></span> Designation<span class="glyphicon glyphicon-chevron-down"  style="float: right;"></span></button>
+					<div class="panel">
+					      <div class="panelchild">
+					        <a href="designation.html">designation list</a><br><hr>
+					        <a href="desginationinsert.html">Insert</a>
+                          </div>
+					</div>
+					<button class="accordion"><span class=" glyphicon glyphicon-user"></span> User<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					         <div class="panelchild">
+					        <a href="usercreate.html">Create</a><br><hr>
+					        <a href="userlist.html">Userlist</a>
+                           </div>
+					</div>
+					<button class="accordion"> <span class=" glyphicon glyphicon-open"></span> Employee<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					     <div class="panelchild">
+					        <a href="employeelist.html">Employee</a><br><hr>
+					        <a href="employeecreate.html"> Create Employee </a>
+                           </div>
+					</div>
+					 <button class="accordion"> <span class=" glyphicon glyphicon-random"></span> Shift<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="creatshift.html">Create shift</a><br><hr>
+					        <a href="shiftlist.html">Shift list </a>
+                           </div>
+					</div>
+					<button class="accordion"> <span class=" glyphicon glyphicon-plane"></span> Leave<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="leaverequest.html">Leave request</a><br><hr>
+					        <a href="requestlist.html">Request list </a>
+                           </div>
+					</div>
+					<button class="accordion"> <span class=" glyphicon glyphicon-filter"></span> All leave request<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="allleaverequest.html">Request List</a>					        
+                           </div>
+					</div>
+					 <button class="accordion"> <span class=" glyphicon glyphicon-link"></span> Performance<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="performance.html">Add performance Record</a><br><hr>
+					        <a href="performancelistchild.html">List of employee</a>
+                           </div>
+					</div>
+					<button class="accordion"> <span class=" glyphicon glyphicon-compressed"></span> Offday<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="offday.html">Add offday</a><br><hr>
+					        <a href="Viewoffday.html">View offday </a>
+                           </div>
+					</div>
+					<button class="accordion"> <span class=" glyphicon glyphicon-send"></span> Payroll<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					      <div class="panelchild">
+					        <a href="addpayroll.html">Add payroll</a><br><hr>
+					        <a href="payrolllist.html">Payroll list </a>
+                           </div>
+					</div>
+				</div>
+               <h2>Accounting</h2>
+               <div class="list-group">                
+				   <button class="accordion"> <span class=" glyphicon glyphicon-earphone"></span> Contucts<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					      <div class="panelchild">
+					        <a href="customers.html">customers</a><br><hr>
+					        <a href="suppliers.html">Suppliers</a>
+                          </div>
+					</div>
+					<button class="accordion"> <span class=" glyphicon glyphicon-usd"></span> Financial account<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					         <div class="panelchild">
+					        <a href="finantial.html">Create new account</a><br><hr>
+					        <a href="accountlist.html">Account list</a>
+                           </div>
+					</div>
+					<button class="accordion"><span class=" glyphicon glyphicon-list-alt"></span> Inventory<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					     <div class="panelchild">
+					        <a href="product.html">Product</a><br><hr>
+					        <a href="service.html">Service</a><br>
+					         
+                           </div>
+					</div>
+					 
+					<button class="accordion"><span class=" glyphicon glyphicon-tint"></span> purchase<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="purchase.html">new Purchase</a><br><hr>
+					      
+                           </div>
+					</div>
+					<button class="accordion"><span class=" glyphicon glyphicon-fire"></span> sales<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="sales.html">New sales</a><br><hr>
+					       					        
+                           </div>
+					</div>
+					 <button class="accordion"><span class=" glyphicon glyphicon-resize-horizontal"></span> Attendence<span class="glyphicon glyphicon-chevron-down" style="float: right;"></span></button>
+					<div class="panel">
+					       <div class="panelchild">
+					        <a href="attendence.html">Attendence</a><br><hr>
+					        <a href="allattendence.html">All Attendence</a><br>
+					       
+                           </div>
+					</div>
+					
+					
+		   </div>
+    </div>
+              <div class="col-xs-12 col-sm-6 col-md-7 col-lg-9" >              
+			    <div class="jumbotron">
+			        <p style="margin-left: 10px;  color:  #01273E; "><span class="glyphicon glyphicon-plane"></span> Leave Request</p>
+                <form>
+                  <div class="form-group ">
+                  	 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  	   <label for="name" >Name</label>
+                  	   <input type="text"  value="Admin" placeholder="enter name" readonly="" class="form-control " id="admin_text"><br>
+                  	  </div>                		
+                  </div>
+                  	<div class="form-group ">
+                  	   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  	      <label for="name" >Designation</label>
+                  	      <input type="text" input-sm  value="Manager" placeholder="enter name" readonly=""  class="form-control " id="admin_text">
+                  	    </div>                 		
+                  	</div>
+                  	<div class="form-group ">
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  	      <label for="name" >Type of Leave</label>
+                  	      <input type="text"  class="form-control"  input-sm placeholder="enter type"  id="type"> <br>
+                  	   </div>                		
+                  	</div>
+                  	<div class="form-group">
+                  	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  	      <label for="name" >Year</label>
+                  	      <input type="text"  class="form-control"  input-sm placeholder="enter type"  id="type"> 
+                  	   </div>                		
+                  	</div>
+                  	<div class="form-group">
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  	      <label for="name" >Month</label>
+                  	      <input type="text"  class="form-control"  input-sm placeholder="enter type"  id="type"> 
+                  	   </div>                		
+                  	</div>
+                  	<div class="form-group">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  	      <label for="name" >Days</label>
+                  	      <input type="text"  class="form-control"  input-sm placeholder="enter type"  id="type"><br> 
+                  	   </div>                		
+                  	</div>
+                  	<div class="form-group">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  	      <label for="name" >Joining Date</label>
+                  	      <input type="date"  class="form-control"  input-sm placeholder="joining"  id="type"> 
+                  	   </div>                		
+                  	</div>
+                  	<div class="form-group">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  	      <label for="name" >Contuct Number</label>
+                  	      <input type="text"  class="form-control"  input-sm placeholder="Contuct Number"  id="type"> <br><br>
+                  	   </div>                		
+                  	</div>
+                  	<div class="form-group">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  	      <button class="btn btn-success" style="width: 250px; margin-left: 60px;">Submit</button>
+                  	   </div>                		
+                  	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </form>
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+			    
+			    </div>
+              </div>
+        </div>
+</div>        
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+</body>
+</html>

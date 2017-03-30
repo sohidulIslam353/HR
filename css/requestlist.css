@@ -1,0 +1,96 @@
+nav{
+height: 120px; 
+padding: 0 auto;
+margin:0 auto;
+background: #01273E; 
+}
+#nav-head{color: white;
+font-weight: bolder;
+font-family: cursive;
+}
+#admin{
+background-color: #324855; 
+height: 160px;
+
+}
+
+
+h5 
+{
+color: white;
+font-weight: bolder;
+font-family: cursive;
+font-size: 15px;
+padding-top: 100px;
+
+}
+
+.list-group a{
+color:white; 
+font-weight: bolder;
+font-family: cursive;
+font-size: 15px;
+background:#4c4848; 
+padding-left: 30px;
+
+}
+
+button.accordion {
+    background-color: white;
+    color:#01273E; 
+    font-weight: bolder;
+    font-family: cursive;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color:#01273E; 
+    color: white;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:white;
+}
+.panelchild a {
+color: #464849;
+font-weight: bolder;
+font-family: vernada;
+background-color: white;
+text-decoration: none;
+
+
+}
+.panelchild a:hover{
+	color: #01273E;
+}
+
+.jumbotron{
+background-color: #dbdbdb;
+height: 700px;
+}
+
+table td{
+    color: black;
+    font-family: vernada;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+}
+table th{
+    color:  #01273E;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: cursive;
+}
+h3{
+    color: #01273E; font-family: cursive; 
+}
